@@ -1,0 +1,69 @@
+<!-- Add this section to your existing HTML, before </body> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stellar Explorer - Astronomy for Kids</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Space+Mono&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: #0B3D91 url('space-bg.jpg');
+      color: white;
+      font-family: 'Space Mono', monospace;
+      margin: 0;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+    }
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 3rem;
+      text-shadow: 0 0 10px #6A00F4;
+    }
+    .planet {
+      width: 100px;
+      transition: transform 0.5s;
+    }
+    .planet:hover {
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>✨ Stellar Explorer</h1>
+    <p>Discover the wonders of space!</p>
+  </header>
+
+  <section id="solar-system">
+    <h2>Meet the Planets</h2>
+    <div class="planets-container">
+      <img src="mercury.png" alt="Mercury" class="planet">
+      <img src="venus.png" alt="Venus" class="planet">
+      <!-- Add all planets -->
+    </div>
+  </section>
+
+  <section id="daily-fact">
+    <h2>Today's Space Fact</h2>
+    <p id="fact-text">Loading fun fact...</p>
+  </section>
+  <section id="games" class="game-section">
+    <h2>🚀 Space Games</h2>
+    
+    <div class="quiz-container">
+      <button id="quiz-btn" class="space-button">
+        🌠 Take the Planet Quiz!
+      </button>
+      <div id="quiz-result" class="hidden"></div>
+    </div>
+  </section>
+    <!-- Keep your existing script link at the bottom -->
+
+  <script src="script.js"></script>
+  <button onclick="tellJoke()">Tell me a space joke!</button>
+<p id="joke">Why did the sun go to school? To get brighter!</p>
+</body>
+</html>

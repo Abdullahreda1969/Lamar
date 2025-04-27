@@ -1,0 +1,37 @@
+/* Game Section Styles */
+.game-section {
+  background: rgba(11, 61, 145, 0.2);
+  padding: 2rem;
+  border-radius: 16px;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.space-button {
+  background: linear-gradient(45deg, #6A00F4, #FFD700);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.space-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #FFD700;
+}
+
+.hidden {
+  display: none;
+}
+
+#quiz-result {
+  margin-top: 20px;
+  padding: 15px;
+  background: rgba(255, 215, 0, 0.1);
+  border-radius: 8px;
+  border-left: 4px solid #FFD700;
+}
