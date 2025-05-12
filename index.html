@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronomy for Kids</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="language-switcher">
+        <button onclick="switchLanguage('en')" class="lang-btn active" id="en-btn">EN</button>
+        <button onclick="switchLanguage('ar')" class="lang-btn" id="ar-btn">العربية</button>
+    </div>
+    
+    <header>
+        <h1 data-en="🌌 Astronomy for Kids" data-ar="🌌 علم الفلك للأطفال">🌌 Astronomy for Kids</h1>
+        <nav>
+            <ul>
+                <li><a href="#planets" data-en="Planets" data-ar="الكواكب">Planets</a></li>
+                <li><a href="#stars" data-en="Stars" data-ar="النجوم">Stars</a></li>
+                <li><a href="#solarsystem" data-en="Solar System" data-ar="المجموعة الشمسية">Solar System</a></li>
+                <li><a href="#funfacts" data-en="Fun Facts" data-ar="حقائق ممتعة">Fun Facts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2 data-en="Explore the Universe!" data-ar="استكشف الكون!">Explore the Universe!</h2>
+            <p data-en="Discover amazing facts about space, planets, and stars!" data-ar="اكتشف حقائق رائعة عن الفضاء والكواكب والنجمات!">Discover amazing facts about space, planets, and stars!</p>
+        </section>
+
+        <section id="planets" class="content-section">
+            <h2 data-en="Planets" data-ar="الكواكب">Planets</h2>
+            <div class="card-container">
+                <div class="planet-card">
+                    <div class="planet-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Mercury_in_true_color.jpg" alt="Mercury" data-en="Image of Mercury" data-ar="صورة عطارد">
+                    </div>
+                    <h3 data-en="Mercury" data-ar="عطارد">Mercury</h3>
+                    <p data-en="The smallest planet in our solar system and closest to the Sun." data-ar="أصغر كوكب في نظامنا الشمسي وأقرب إلى الشمس.">The smallest planet in our solar system and closest to the Sun.</p>
+                    <div class="fun-fact">
+                        <div class="fun-fact-content">
+                            <span class="fun-fact-trigger">🌟 Fun Fact</span>
+                            <p class="fun-fact-text" data-en="A day on Mercury lasts 59 Earth days!" data-ar="يستغرق يوم على عطارد 59 يومًا أرضيًا!">A day on Mercury lasts 59 Earth days!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="planet-card">
+                    <div class="planet-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Venus-real_color.jpg" alt="Venus" data-en="Image of Venus" data-ar="صورة الزهرة">
+                    </div>
+                    <h3 data-en="Venus" data-ar="الزهرة">Venus</h3>
+                    <p data-en="Similar in size to Earth but with a toxic atmosphere of carbon dioxide." data-ar="مشابه في الحجم للأرض ولكن مع غلاف جوي سام من ثاني أكسيد الكربون.">Similar in size to Earth but with a toxic atmosphere of carbon dioxide.</p>
+                    <div class="fun-fact">
+                        <div class="fun-fact-content">
+                            <span class="fun-fact-trigger">🌟 Fun Fact</span>
+                            <p class="fun-fact-text" data-en="Venus rotates in the opposite direction to most planets." data-ar="تتحرك الزهرة في اتجاه معاكس لمعظم الكواكب.">Venus rotates in the opposite direction to most planets.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="planet-card">
+                    <div class="planet-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/The_Blue_Marble_%28remastered%29.jpg" alt="Earth" data-en="Image of Earth" data-ar="صورة الأرض">
+                    </div>
+                    <h3 data-en="Earth" data-ar="الأرض">Earth</h3>
+                    <p data-en="Our home planet, the only known place with life in the universe." data-ar="كوكبنا الأم، المكان الوحيد المعروف الذي يحتوي على حياة في الكون.">Our home planet, the only known place with life in the universe.</p>
+                    <div class="fun-fact">
+                        <div class="fun-fact-content">
+                            <span class="fun-fact-trigger">🌟 Fun Fact</span>
+                            <p class="fun-fact-text" data-en="Earth is the only planet not named after a god." data-ar="الأرض هي الكوكب الوحيد الذي لم يُسمى على اسم إله.">Earth is the only planet not named after a god.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="planet-card">
+                    <div class="planet-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg" alt="Mars" data-en="Image of Mars" data-ar="صورة المريخ">
+                    </div>
+                    <h3 data-en="Mars" data-ar="المريخ">Mars</h3>
+                    <p data-en="Known as the Red Planet due to iron oxide on its surface." data-ar="يعرف بالكوكب الأحمر بسبب أكسيد الحديد على سطحه.">Known as the Red Planet due to iron oxide on its surface.</p>
+                    <div class="fun-fact">
+                        <div class="fun-fact-content">
+                            <span class="fun-fact-trigger">🌟 Fun Fact</span>
+                            <p class="fun-fact-text" data-en="Mars has the largest dust storms in the solar system." data-ar="يحتوي المريخ على أكبر العواصف الترابية في النظام الشمسي.">Mars has the largest dust storms in the solar system.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="planet-card">
+                    <div class="planet-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg" alt="Jupiter" data-en="Image of Jupiter" data-ar="صورة المشتري">
+                    </div>
+                    <h3 data-en="Jupiter" data-ar="المشتري">Jupiter</h3>
+                    <p data-en="The largest planet in our solar system, a gas giant with a Great Red Spot." data-ar="أكبر كوكب في نظامنا الشمسي، عملاق غازي به بقعة حمراء عظيمة.">The largest planet in our solar system, a gas giant with a Great Red Spot.</p>
+                    <div class="fun-fact">
+                        <div class="fun-fact-content">
+                            <span class="fun-fact-trigger">🌟 Fun Fact</span>
+                            <p class="fun-fact-text" data-en="Jupiter has 79 known moons!" data-ar="للمشتري 79 قمرًا معروفًا!">Jupiter has 79 known moons!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="planet-card">
+                    <div class="planet-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Saturn_during_Equinox.jpg" alt="Saturn" data-en="Image of Saturn" data-ar="صورة زحل">
+                    </div>
+                    <h3 data-en="Saturn" data-ar="زحل">Saturn</h3>
+                    <p data-en="Famous for its beautiful rings made of ice and rock particles." data-ar="مشهور بحلقاته الجميلة المصنوعة من الجليد والجسيمات الصخرية.">Famous for its beautiful rings made of ice and rock particles.</p>
+                    <div class="fun-fact">
+                        <div class="fun-fact-content">
+                            <span class="fun-fact-trigger">🌟 Fun Fact</span>
+                            <p class="fun-fact-text" data-en="Saturn's rings are only about 20 meters thick!" data-ar="حلقات زحل يبلغ سمكها حوالي 20 مترًا فقط!">Saturn's rings are only about 20 meters thick!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="planet-card">
+                    <div class="planet-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Uranus2.jpg" alt="Uranus" data-en="Image of Uranus" data-ar="صورة أورانوس">
+                    </div>
+                    <h3 data-en="Uranus" data-ar="أورانوس">Uranus</h3>
+                    <p data-en="An ice giant that rotates on its side, with rings and 27 known moons." data-ar="عملاق الجليد الذي يدور على جنبه، مع حلقات و 27 قمرًا معروفًا.">An ice giant that rotates on its side, with rings and 27 known moons.</p>
+                    <div class="fun-fact">
+                        <div class="fun-fact-content">
+                            <span class="fun-fact-trigger">🌟 Fun Fact</span>
+                            <p class="fun-fact-text" data-en="Uranus is the only planet named after a Greek god (all other planets are named after Roman gods)." data-ar="أورانوس هو الكوكب الوحيد الذي سمي على اسم إله يوناني (جميع الكواكب الأخرى سميت على اسم آلهة رومانية).">Uranus is the only planet named after a Greek god (all other planets are named after Roman gods).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="planet-card">
+                    <div class="planet-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg" alt="Neptune" data-en="Image of Neptune" data-ar="صورة نبتون">
+                    </div>
+                    <h3 data-en="Neptune" data-ar="نبتون">Neptune</h3>
+                    <p data-en="The windiest planet with the strongest winds in the solar system." data-ar="الكوكب الأشد رياحًا مع أقوى رياح في النظام الشمسي.">The windiest planet with the strongest winds in the solar system.</p>
+                    <div class="fun-fact">
+                        <div class="fun-fact-content">
+                            <span class="fun-fact-trigger">🌟 Fun Fact</span>
+                            <p class="fun-fact-text" data-en="Neptune was the first planet located through mathematical predictions rather than through regular observations of the sky." data-ar="نبتون كان أول كوكب تم اكتشافه من خلال التنبؤات الرياضية بدلاً من خلال الملاحظات العادية للسماء.">Neptune was the first planet located through mathematical predictions rather than through regular observations of the sky.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="planet-card dwarf-planet">
+                    <div class="planet-image">
+                        <img src="images/poster_pluto_front_c.jpg"alt="Pluto"data-en="Image of Pluto" data-ar="صورة بلوتو">
+                    </div>
+                    <h3 data-en="Pluto" data-ar="بلوتو">Pluto <span class="dwarf-tag" data-en="Dwarf Planet" data-ar="كوكب قزم">Dwarf Planet</span></h3>
+                    <p data-en="A small, icy world in the Kuiper Belt, once considered the ninth planet." data-ar="عالم صغير وجليدي في حزام كويبر،曾 اعتبر الكوكب التاسع.">A small, icy world in the Kuiper Belt, once considered the ninth planet.</p>
+                    <div class="fun-fact">
+                        <div class="fun-fact-content">
+                            <span class="fun-fact-trigger">🌟 Fun Fact</span>
+                            <p class="fun-fact-text" data-en="Pluto has a heart-shaped glacier called Tombaugh Regio that's larger than Texas!" data-ar="بلوتو يحتوي على نهر جليدي على شكل قلب يسمى تومبو ريجيو أكبر من تكساس!">Pluto has a heart-shaped glacier called Tombaugh Regio that's larger than Texas!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="stars" class="content-section">
+            <h2 data-en="Stars" data-ar="النجوم">Stars</h2>
+            <p data-en="Learn about different types of stars in our galaxy." data-ar="تعلم عن أنواع مختلفة من النجوم في مجرتنا.">Learn about different types of stars in our galaxy.</p>
+            <div class="star-types">
+                <h3 data-en="Types of Stars" data-ar="أنواع النجوم">Types of Stars</h3>
+                <ul>
+                    <li><strong data-en="Red Dwarfs" data-ar="النجوم القزمة الحمراء">Red Dwarfs</strong>: <span data-en="The most common type of star in the Milky Way" data-ar="النوع الأكثر شيوعًا من النجوم في درب التبانة">The most common type of star in the Milky Way</span></li>
+                    <li><strong data-en="Yellow Dwarfs" data-ar="النجوم القزمة الصفراء">Yellow Dwarfs</strong>: <span data-en="Medium-sized stars like our Sun" data-ar="النجوم متوسطة الحجم مثل شمسنا">Medium-sized stars like our Sun</span></li>
+                    <li><strong data-en="Red Giants" data-ar="العمالقة الحمراء">Red Giants</strong>: <span data-en="Large stars in a late stage of stellar evolution" data-ar="النجوم الكبيرة في مرحلة متأخرة من تطور النجم">Large stars in a late stage of stellar evolution</span></li>
+                    <li><strong data-en="White Dwarfs" data-ar="النجوم القزمة البيضاء">White Dwarfs</strong>: <span data-en="The hot, dense cores left after stars shed their outer layers" data-ar="النوى الساخنة والكثيفة المتبقية بعد أن تتخلص النجوم من طبقاتها الخارجية">The hot, dense cores left after stars shed their outer layers</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="solarsystem" class="content-section">
+            <h2 data-en="Our Solar System" data-ar="نظامنا الشمسي">Our Solar System</h2>
+            <p data-en="Our solar system consists of the Sun and everything that orbits around it, including planets, dwarf planets, moons, asteroids, comets, and meteoroids." data-ar="يتكون نظامنا الشمسي من الشمس وكل ما يدور حولها، بما في ذلك الكواكب والكواكب القزمة والأقمار والكويكبات والمذنبات والأجرام السماوية.">Our solar system consists of the Sun and everything that orbits around it, including planets, dwarf planets, moons, asteroids, comets, and meteoroids.</p>
+            
+            <div class="solar-system-facts">
+                <h3 data-en="Quick Facts:" data-ar="حقائق سريعة:">Quick Facts:</h3>
+                <ul>
+                    <li data-en="Age: About 4.6 billion years" data-ar="العمر: حوالي 4.6 مليار سنة">Age: About 4.6 billion years</li>
+                    <li data-en="Number of planets: 8" data-ar="عدد الكواكب: 8">Number of planets: 8</li>
+                    <li data-en="Number of dwarf planets: 5 recognized" data-ar="عدد الكواكب القزمة: 5 معترف بها">Number of dwarf planets: 5 recognized</li>
+                    <li data-en="Largest planet: Jupiter" data-ar="أكبر كوكب: المشتري">Largest planet: Jupiter</li>
+                    <li data-en="Smallest planet: Mercury" data-ar="أصغر كوكب: عطارد">Smallest planet: Mercury</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="funfacts" class="content-section">
+            <h2 data-en="Space Fun Facts" data-ar="حقائق ممتعة عن الفضاء">Space Fun Facts</h2>
+            <div class="facts-grid">
+                <div class="fact-card">
+                    <h3 data-en="Space is Completely Silent" data-ar="الفضاء صامت تمامًا">Space is Completely Silent</h3>
+                    <p data-en="Sound waves need a medium to travel through. Since there is no atmosphere in the vacuum of space, the realm between stars will always be eerily silent." data-ar="تحتاج الموجات الصوتية إلى وسط للتنقل من خلاله. نظرًا لعدم وجود جو في الفراغ الفضائي، فإن المملكة بين النجوم ستظل دائمًا صامتة بشكل مخيف.">Sound waves need a medium to travel through. Since there is no atmosphere in the vacuum of space, the realm between stars will always be eerily silent.</p>
+                </div>
+                <div class="fact-card">
+                    <h3 data-en="One Million Earths Can Fit in the Sun" data-ar="يمكن أن تتناسب مليون أرض في الشمس">One Million Earths Can Fit in the Sun</h3>
+                    <p data-en="The Sun is so enormous that approximately one million Earths could fit inside it." data-ar="الشمس ضخمة لدرجة أن مليون أرض يمكن أن تتناسب بداخلها.">The Sun is so enormous that approximately one million Earths could fit inside it.</p>
+                </div>
+                <div class="fact-card">
+                    <h3 data-en="Footprints on the Moon Will Stay There for Millions of Years" data-ar="سيظل بصمات الأقدام على سطح القمر هناك لآلاف السنين">Footprints on the Moon Will Stay There for Millions of Years</h3>
+                    <p data-en="Because there's no wind on the Moon, the footprints left by astronauts will remain visible for millions of years." data-ar="نظرًا لعدم وجود رياح على سطح القمر، فإن بصمات الأقدام التي تركتها رواد الفضاء ستظل مرئية لآلاف السنين.">Because there's no wind on the Moon, the footprints left by astronauts will remain visible for millions of years.</p>
+                </div>
+                <div class="fact-card">
+                    <h3 data-en="The Hottest Planet Isn't Closest to the Sun" data-ar="أنه الكوكب الأكثر حرارة ليس أقرب إلى الشمس">The Hottest Planet Isn't Closest to the Sun</h3>
+                    <p data-en="Even though Mercury is closest to the Sun, Venus is actually the hottest planet due to its thick atmosphere trapping heat." data-ar="على الرغم من أن عطارد هو أقرب إلى الشمس، فإن الزهرة هي في الواقع الكوكب الأكثر حرارة بسبب جوها السميك الذي يحتجز الحرارة.">Even though Mercury is closest to the Sun, Venus is actually the hottest planet due to its thick atmosphere trapping heat.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p data-en="2025 Astronomy for Kids | Made with " data-ar="2025 علم الفلك للأطفال | مصنوع مع "> 2025 Astronomy for Kids | Made with </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
